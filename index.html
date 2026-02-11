@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payment Submission Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="container">
+    <h2>Submit Payment</h2>
+
+    <form id="paymentForm">
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="number" id="amount" placeholder="Amount" required min="1" />
+      <button type="submit" id="submitBtn">Submit</button>
+    </form>
+
+    <div id="status" class="status"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
